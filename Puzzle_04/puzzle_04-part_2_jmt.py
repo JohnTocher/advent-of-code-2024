@@ -6,7 +6,8 @@
     Solution to puzzle 04 part 2
 """
 
-INPUT_FILE_NAME = "puzzle_04_input_01_sample.txt"
+# INPUT_FILE_NAME = "puzzle_04_input_01_sample.txt"
+INPUT_FILE_NAME = "puzzle_04_input_01.txt"
 
 
 def read_input_data():
@@ -48,7 +49,7 @@ def word_geometry_for_x_mas():
     all_geos.append([[-1, -1], [1, 1], [-1, 1], [1, -1]])  # left to right both
     all_geos.append([[-1, -1], [1, 1], [1, -1], [-1, 1]])  # one of each  A
     all_geos.append([[1, -1], [-1, 1], [1, 1], [-1, -1]])  # right to left both
-    all_geos.append([[1, -1], [-1, 1], [-1, -1], [1, 1]])  # one of each B
+    all_geos.append([[1, 1], [-1, -1], [-1, 1], [1, -1]])  # one of each B
 
     return all_geos
 
@@ -105,13 +106,12 @@ def solve_puzzle():
         for pos_x in range(0, size_x):
             if puzzle_grid[(pos_x, pos_y)] == "A":
                 # Might be an x-mas centred here
-
                 words_from_here = x_mas_from_point(
                     puzzle_grid, (pos_x, pos_y), geo_lists, size_x, size_y
                 )
-                if (pos_x == 1) and (pos_y == 7):
-                    print(f"A at {pos_x},{pos_y}")
-                print(f"{pos_x},{pos_y}: {words_from_here}")
+                # if (pos_x == 1) and (pos_y == 7):
+                #    print(f"A at {pos_x},{pos_y}")
+                # print(f"{pos_x},{pos_y}: {words_from_here}")
                 word_count += len(words_from_here)
 
     print(f"Result: {word_count}")

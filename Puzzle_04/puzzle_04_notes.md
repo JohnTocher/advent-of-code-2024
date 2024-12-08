@@ -12,7 +12,7 @@ Result: 2662
 ## Part 2
 [my solution](puzzle_04-part_2_jmt.py)
 
-TBA
+Result: 2034
 
 ## Gotchas
 
