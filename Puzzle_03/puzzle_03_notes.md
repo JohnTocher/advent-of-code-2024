@@ -8,16 +8,16 @@
 
 Result: 174960292
 
-TBA
-
 ## Part 2
 [my solution](puzzle_03-part_2_jmt.py)
 
-TBA
+Result: 56275602
 
 ## Gotchas
 
-TBA
+I originally thought I might have to do something fancy to juglle the order of the next valid do, dont or mult command.  
+I then relaised that once we know where the next valid multiply command is, we just need to find the latest (rightmost?)  
+do or don't command before it.  
 
 # Raw text from the advent of code web site
 
