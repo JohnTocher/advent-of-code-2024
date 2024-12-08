@@ -14,11 +14,11 @@ https://github.com/JohnTocher/advent-of-code-2023
 
 ## Current status
 
-Puzzle 5 part 1 complete
+Puzzle 5 complete
 
 John Tocher  
 Sun 8 December 2024
 
 ## Puzzle notes pages
 
-[01](Puzzle_01/puzzle_01_notes.md) - [02](Puzzle_02/puzzle_02_notes.md) - [03](Puzzle_03/puzzle_03_notes.md)
+[01](Puzzle_01/puzzle_01_notes.md) - [02](Puzzle_02/puzzle_02_notes.md) - [03](Puzzle_03/puzzle_03_notes.md) - [04](Puzzle_04/puzzle_04_notes.md) - [05](Puzzle_05/puzzle_05_notes.md)
