@@ -6,7 +6,8 @@
     Solution to puzzle 05 part 2
 """
 
-INPUT_FILE_NAME = "puzzle_05_input_02_sample.txt"
+# INPUT_FILE_NAME = "puzzle_05_input_01_sample.txt"
+INPUT_FILE_NAME = "puzzle_05_input_01.txt"
 
 
 def read_input_data():
@@ -43,6 +44,7 @@ def solve_puzzle():
         order_ok = True
         for page_index in range(0, len(each_update) - 1):
             # Make sure note of the pages which MUST come before exist after the page
+
             for check_index in range(page_index + 1, len(each_update)):
                 if each_update[page_index] in pages_before:
                     if (
@@ -50,11 +52,17 @@ def solve_puzzle():
                         in pages_before[each_update[page_index]]
                     ):
                         order_ok = False
-                        break
-        if order_ok:
+                        # print(f"Before: {each_update}")
+                        num_to_move = each_update.pop(check_index)
+                        each_update.insert(page_index, num_to_move)
+                        # print(f" After: {each_update}")
+
+        if not order_ok:
             middle_index = int(len(each_update) / 2)
             middle_sum += each_update[middle_index]
-            print(f"Order ok for {each_update} - middle is {each_update[middle_index]}")
+            print(
+                f"Order fixed for {each_update} - middle is {each_update[middle_index]}"
+            )
 
     print(f"Result: {middle_sum}")
 

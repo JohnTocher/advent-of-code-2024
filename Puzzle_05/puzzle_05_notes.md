@@ -11,7 +11,7 @@ Result: 5374
 ## Part 2
 [my solution](puzzle_05-part_2_jmt.py)
 
-TBA
+Result: 4260
 
 ## Gotchas
 
