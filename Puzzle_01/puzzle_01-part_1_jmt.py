@@ -1,4 +1,4 @@
-""" Advent of code 2023 - Puzzle 01
+""" Advent of code 2024 - Puzzle 01
 
     https://adventofcode.com/2024/day/1
 
@@ -6,7 +6,6 @@
     Solution to puzzle 01 part 1
 """
 
-# INPUT_FILE_NAME = "puzzle_01_input_01_sample.txt"
 INPUT_FILE_NAME = "puzzle_01_input_01.txt"
 
 

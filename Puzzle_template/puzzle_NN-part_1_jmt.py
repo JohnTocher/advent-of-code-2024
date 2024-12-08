@@ -1,4 +1,4 @@
-""" Advent of code 2023 - Puzzle NN
+""" Advent of code 2024 - Puzzle NN
 
     https://adventofcode.com/2024/day/NN
 
