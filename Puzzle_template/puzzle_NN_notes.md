@@ -1,4 +1,4 @@
-# Advent of Code 2023 - Puzzle NN notes
+# Advent of Code 2024 - Puzzle NN notes
 
 [Official link](https://adventofcode.com/2024/day/NN)
 [Main page](../README.md)
