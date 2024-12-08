@@ -1,12 +1,12 @@
-# advent-of-code-2023
+# advent-of-code-2024
 
 Repository for shared solutions of AoC 2024!
 
 ## Solutions in python with an educational focus
 
-This is pretty much a clone of my starting 2023 repo.  I doubt I'll be finishing this ina timely manner, I created it simply so I could have agpo at a cvouple of early solutiosn to dicuss with a colleague.
+This is essentially a clone of my starting 2023 repo.  I doubt I'll be finishing the 2024 challenges in a timely manner, I created it simply so I could have a go at a couple of early solutions I was dicussing with a colleague.
 
-If you like the idea though, I have a more fully fleshed out set of instructions in my 2032 repo
+If you like the idea though, I have a more fully fleshed out set of instructions in my 2023 repo
 https://github.com/JohnTocher/advent-of-code-2023
 
 ## Current status
