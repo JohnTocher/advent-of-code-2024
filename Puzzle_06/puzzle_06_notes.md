@@ -13,13 +13,33 @@ Finished at 39,0 after 5433 steps over 4967 locations
 ## Part 2
 [my solution](puzzle_06-part_2_jmt.py)
 
-TBA
+Found 1789 solutions which cause a loop
 
 ## Gotchas
 
-My first attempt on the test data was a little high.  After fixing one typo in my map data, I was still off though.  
-On re-reading the question I realoised it was "iunique locations" visited, not the total steps, so I had to go back  
+### Part 1
+
+My first attempt on the test data was a little high.  After fixing one typo in my map direction data, I was still off.  
+On re-reading the question I realised it was "unique locations" visited, not the total steps, so I had to go back  
 and record the locations.  I used a set so I wouldn't have to de-dupe later.
+
+### Part 2
+
+The second part was interesting, in that my brute force technique was a bit slow.  I was testing a couple of the  
+full size (130x130) maps per second, but for 16900 locations, that's still more seconds than I wanted to wait, so I had to  
+think of an optimisation or two.
+
+Firstly I switched my record of visited locations from a list to a set.  That made quite a bit of a difference, but not enough.  
+Then, I looked at the otuput of my solution part 1:
+*Finished at 39,0 after 5433 steps over 4967 locations*  
+4967 is less than a third of the full grid size.  This helped too, (a coupleof hundred tests per second, with some debugs on)...  
+but my answer was wrong!  A bit of thinking and playing around with paths in my test data led me to spot a case I hadn't thought about.
+
+*Spoiler alert*
+
+You might have to handle multiple right hand turns at some points.  Smooth sailing from there.  Definately the most enjoyable  
+puzzle so far, IMHO.
+
 
 # Raw text from the advent of code web site
 
