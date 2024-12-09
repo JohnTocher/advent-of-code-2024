@@ -4,7 +4,7 @@ Repository for shared solutions of AoC 2024!
 
 ## Solutions in python with an educational focus
 
-This is essentially a clone of my starting 2023 repo.  I doubt I'll be finishing the 2024 challenges in a timely manner, I created it simply so I could have a go at a couple of early solutions I was dicussing with a colleague.
+This is essentially a clone of my starting 2023 repo.  I doubt I'll be finishing the 2024 challenges in a timely manner, I created it simply so I could have a go at a couple of early solutions I was discussing with a colleague.
 
 Note that the results in my notes are for my puzzle input, they won't match yours, but if you want to test your code against my data, I have included 
 it in the repository.
@@ -14,10 +14,10 @@ https://github.com/JohnTocher/advent-of-code-2023
 
 ## Current status
 
-Puzzle 5 complete
+Puzzle 6 part 1 complete
 
 John Tocher  
-Sun 8 December 2024
+Mon 9 December 2024
 
 ## Puzzle notes pages
 
