@@ -14,10 +14,10 @@ https://github.com/JohnTocher/advent-of-code-2023
 
 ## Current status
 
-Puzzle 7 part 1 complete
+Puzzle 7 complete
 
 John Tocher  
-Mon 9 December 2024
+Wed 11 December 2024
 
 ## Puzzle notes pages
 

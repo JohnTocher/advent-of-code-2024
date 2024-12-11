@@ -14,7 +14,11 @@ Found 266 valid tests from 850 for a total of 2299996598890
 ## Part 2
 [my solution](puzzle_07-part_2_jmt.py)
 
-TBA
+Found 421 valid tests from 850 for a total of 362646859298554
+
+This one was OK, but slower than I think it should be.  I thought pre-calculating the  
+permutations of operators and re-using them might help, but it didn't do a lot.   
+Exiting early from the calulation if it was too large helped a little.
 
 ## Gotchas
 
